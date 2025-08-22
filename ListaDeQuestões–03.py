@@ -16,12 +16,20 @@
 
 # Questâo 2
 
-n = int(input("digite um numero "))
-for num in range(1, n+1):
-    if num%2 ==0:
-        print(f"{num} é par")
-    else:
-        print(f"{num} é impar")
+# n = int(input("digite um numero "))
+# for num in range(1, n+1):
+#     if num%2 ==0:
+#         print(f"{num} é par")
+#     else:
+#         print(f"{num} é impar")
 
+# Questão 3
 
+# num = int(input("digite um numero "))
+# for u in range(1, 11):
+#     tabu= u*num
+#     print(f"{u} * {num} = {tabu}")
 
+# Questão 4
+
+num= int(input("fala um numero "))
