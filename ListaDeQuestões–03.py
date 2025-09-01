@@ -32,4 +32,4 @@
 
 # Questão 4
 
-num= int(input("fala um numero "))
+
