@@ -32,4 +32,12 @@
 
 # Questão 4
 
-
+cont = 0
+nm = int(input("bota o numero ai: "))
+for i in range(1, nm +1):
+    if nm % i == 0:
+        cont +=1
+if cont > 2:
+    print("numero nao é primo")
+else:
+    print("primo.")
