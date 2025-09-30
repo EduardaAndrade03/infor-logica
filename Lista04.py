@@ -16,23 +16,23 @@
 
 # q2
 
-# def calcular_media(notas):
-#     med=0
-#     for n in notas:
-#         med+=n
-#     med/=4
-#     if med>=7:
-#         return(f"aprovado, média: {med}")
-#     elif med<7:
-#         return(f"reprovado, média: {med}")
-#     else:
-#         return(f"ta errado isso ai man: {med}")
+def calcular_media(notas):
+    med=0
+    for n in notas:
+        med+=n
+    med/=4
+    if med>10 or med<0:
+        return(f"ta errado isso ai man: {med}")
+    elif med>=7:
+        return(f"aprovado, média: {med}")
+    elif med<7:
+        return(f"reprovado, média: {med}")
     
-# notas4=[]
-# for x in range(1, 5):
-#     nota=int(input(f"diz ai a nota {x}: "))
-#     notas4.append(nota)
-# print(calcular_media(notas4))
+notas4=[]
+for x in range(1, 5):
+    nota=int(input(f"diz ai a nota {x}: "))
+    notas4.append(nota)
+print(calcular_media(notas4))
 
 # q3
 
@@ -117,12 +117,52 @@
 
 # q8
 
-# cont = 0
-# nm = int(input("bota o numero ai: "))
-# for i in range(1, nm +1):
-#     if nm % i == 0:
-#         cont +=1
-# if cont > 2:
-#     print("numero nao é primo")
+# soma=0
+# acimamed=[]
+# numeros=[]
+# for x in range(1,7):
+#     numero=float(input(f"digite o {x}º numero: "))
+#     soma+=numero
+#     numeros.append(numero)
+# for x in numeros:
+#     if x>=6:
+#         acimamed.append(x)
+# med=soma/6
+# print(f"média: {med}")
+# print(f"numeros acima da média: {acimamed}")
+
+# q9
+
+# produtos=[]
+# for x in range(1,6):
+#     produto=str(input(f"digite o produto {x}: "))
+#     produtos.append(produto)
+# print(f"produtos cadastrados: {produtos}")
+# remover=str(input("digite o produto que quer remover: "))
+# if remover in produtos:
+#     produtos.remove(remover)
+#     print(f"lista atualizada: {produtos}")
 # else:
-#     print("primo.")
+#     print("produto não encontrado")
+
+# q10
+
+# filtrados=[]
+# def filtrar_nomes(lista):
+#     cont=0
+#     for nome in lista:
+#         for x in nome:
+#             cont+=1
+#         if cont==5:
+#             filtrados.append(nome)
+#             cont=0
+#         else:
+#             cont=0
+#     return f"a lista filtrada ficou: {filtrados}"
+    
+
+# palavras=[]
+# for x in range(1,8):
+#     palavra=str(input(f"digite o nome {x}: "))
+#     palavras.append(palavra)
+# print(filtrar_nomes(palavras))
