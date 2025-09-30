@@ -72,3 +72,9 @@
 
 # print(f"fatorial de {apoio} é {fato}")
 
+# mult=1
+# num = int(input("digite um numero"))
+# for n in range(1, num+1):
+#     mult*= n
+# print(f"fatorial de {num} é igual {mult}")
+

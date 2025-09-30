@@ -105,12 +105,24 @@
 
 # q7
 
-nomes=[]
-for x in range(1,6):
-    nome=str(input(f"digite o {x}º nome: "))
-    nomes.append(nome)
-checar=str(input("qual nome você quer verificar?: "))
-if checar in nomes:
-    print('Convidado confirmado!')
-else:
-    print("convidado não encontrado")
+# nomes=[]
+# for x in range(1,6):
+#     nome=str(input(f"digite o {x}º nome: "))
+#     nomes.append(nome)
+# checar=str(input("qual nome você quer verificar?: "))
+# if checar in nomes:
+#     print('Convidado confirmado!')
+# else:
+#     print("convidado não encontrado")
+
+# q8
+
+# cont = 0
+# nm = int(input("bota o numero ai: "))
+# for i in range(1, nm +1):
+#     if nm % i == 0:
+#         cont +=1
+# if cont > 2:
+#     print("numero nao é primo")
+# else:
+#     print("primo.")
