@@ -99,28 +99,94 @@
 
 # print("parabens, voce acertou!")
 
-# # q10
+# q10
 
-def calculadora(n1:int, n2:int, operacao):
-    if operacao=="+" :
-        result= n1+n2
-    elif operacao== "-" :
-        result= n1-n2
-    elif operacao== "*":
-        result= n1*n2
-    elif operacao=="/":
-        result= n1/n2
-    else:
-        result="operacao indeterminada"
-    return result
+# pares=0
+# num = int(input("digite um número: "))
+# for x in range(1, num+1):
+#     if x%2==0:
+#         pares+=x
+# print(f"a soma dos números pares antes de {num} é igual a: {pares}")
 
-print("soma: +")
-print("subtração: -")
-print("multiplicação: *")
-print("divisão: /")
 
-n1=int(input("digite o numero 1 "))    
-n2=int(input("digite o numero 2 "))    
-op=str(input("digite a operação "))
-print(calculadora(n1, n2, op))
+# # q11
 
+# def calculadora(n1:int, n2:int, operacao):
+#     if operacao=="+" :
+#         result= n1+n2
+#     elif operacao== "-" :
+#         result= n1-n2
+#     elif operacao== "*":
+#         result= n1*n2
+#     elif operacao=="/":
+#         result= n1/n2
+#     else:
+#         result="operacao indeterminada"
+#     return result
+
+# print("soma: +")
+# print("subtração: -")
+# print("multiplicação: *")
+# print("divisão: /")
+
+# n1=int(input("digite o numero 1 "))    
+# n2=int(input("digite o numero 2 "))    
+# op=str(input("digite a operação "))
+# print(calculadora(n1, n2, op))
+
+# q12
+
+# def primo(num):
+#     resto=0
+#     for x in range(1, num+1):
+#         if num%2==0:
+#             resto+=1
+#     if resto>2:
+#         msg = f"{num} não é primo"
+#     else:
+#         msg = f"{num} é primo"
+
+#     return msg
+
+# n = int(input("digite um numero: "))
+# print(primo(n))
+
+# # q13
+# list=[]
+# def inversao(palavra: str):
+#     invertida= palavra[ : : -1]
+#     return invertida
+
+# palavr=str(input("digite uma palavra: "))
+# print(inversao(palavr))
+
+# q14
+
+# num=0
+# somapares=0
+# somaimpares=0
+# listap=[]
+# listai=[]
+# for a in range(1, 11):
+#     num=int(input("digite um numero: "))
+#     if num%2==0:
+#         somapares+=1
+#         listap+=[num]
+#     else:
+#         somaimpares+=1
+#         listai+=[num]
+# print(f"numero de pares: {somapares}, {listap}")
+# print(f"numero de impares: {somaimpares}, {listai}")
+
+# q15
+
+def fibo(num : int):
+    f = 2
+    for i in range(0, num):
+        x = f
+        f += f+x
+    
+        
+
+n = int(input('digite um numero '))
+fibo(n)
