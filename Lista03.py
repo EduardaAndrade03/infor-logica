@@ -62,13 +62,13 @@
 
 # Questão 6
 
-import random
-numerocerto=random.randint(1,20)
-tentativa=int(input("tente acertar o numero: "))
-while tentativa!=numerocerto:
-    if tentativa>numerocerto:
-        tentativa=int(input("muito alto! tente um numero mais baixo: "))
-    elif tentativa<numerocerto:
-        tentativa=int(input("muito baixo! tente um numero mais alto: "))
-print(f"Você acertou! o número era: {numerocerto}")
+# import random
+# numerocerto=random.randint(1,20)
+# tentativa=int(input("tente acertar o numero: "))
+# while tentativa!=numerocerto:
+#     if tentativa>numerocerto:
+#         tentativa=int(input("muito alto! tente um numero mais baixo: "))
+#     elif tentativa<numerocerto:
+#         tentativa=int(input("muito baixo! tente um numero mais alto: "))
+# print(f"Você acertou! o número era: {numerocerto}")
         

@@ -16,23 +16,23 @@
 
 # q2
 
-def calcular_media(notas):
-    med=0
-    for n in notas:
-        med+=n
-    med/=4
-    if med>10 or med<0:
-        return(f"ta errado isso ai man: {med}")
-    elif med>=7:
-        return(f"aprovado, média: {med}")
-    elif med<7:
-        return(f"reprovado, média: {med}")
+# def calcular_media(notas):
+#     med=0
+#     for n in notas:
+#         med+=n
+#     med/=4
+#     if med>10 or med<0:
+#         return(f"ta errado isso ai man: {med}")
+#     elif med>=7:
+#         return(f"aprovado, média: {med}")
+#     elif med<7:
+#         return(f"reprovado, média: {med}")
     
-notas4=[]
-for x in range(1, 5):
-    nota=int(input(f"diz ai a nota {x}: "))
-    notas4.append(nota)
-print(calcular_media(notas4))
+# notas4=[]
+# for x in range(1, 5):
+#     nota=int(input(f"diz ai a nota {x}: "))
+#     notas4.append(nota)
+# print(calcular_media(notas4))
 
 # q3
 

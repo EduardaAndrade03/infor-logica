@@ -180,11 +180,11 @@
 
 # q15
 
-n=int(input('digite um numero: '))
-fibo=[0,1]
-for x in range(2, n+1):
-    x1=fibo[x-1]
-    x2=fibo[x-2]
-    soma=x1+x2
-    fibo.append(soma)
-print(fibo)
+# n=int(input('digite um numero: '))
+# fibo=[0,1]
+# for x in range(2, n+1):
+#     x1=fibo[x-1]
+#     x2=fibo[x-2]
+#     soma=x1+x2
+#     fibo.append(soma)
+# print(fibo)
